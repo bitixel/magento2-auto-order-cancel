@@ -46,7 +46,7 @@ class CancelOrder
         } 
         
         
-        $this->_logger->info('cancelled orders '. implode(' , ', $order_ids));
+        $this->_logger->info('cancelled orders are '. implode(' , ', $order_ids));
         
         return $this;
     }
